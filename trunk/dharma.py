@@ -847,6 +847,7 @@ class dharma_machine:
 				skey = self.variance.keys()[svar]
 
 				dharma_value.leaf_mode = False
+				dharma_value.leaf_trigger = 0
 				variance = self.variance[skey].generate()
 
 				for t in range(0, self.tabs):
